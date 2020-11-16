@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "posts.xsl"?>
+<!DOCTYPE Social_Network SYSTEM "users.dtd">
+<Social_Network>
+    <Post user_name="Pravisht">
+        <Date>13-11-2020</Date>
+        <Text>Advance Happy Diwali</Text>
+        <Image>diwali.jpg</Image>
+        <Like>
+        <UName name="Sumedh">Sumedh</UName>
+        <UName name="Rhea">Rhea</UName>
+        </Like>
+    </Post>
+    <Post user_name="Pravisht">
+        <Date>1-11-2020</Date>
+        <Text>Good Morning all !!</Text>
+        <Like>
+        <UName name="Vishnu">Vishnu</UName>
+        <UName name="Lakshmi">Lakshmi</UName>
+        </Like>
+    </Post>
+    <Post user_name="Radha">
+        <Date>30-10-2020</Date>
+        <Text>Friday Thoughts !!</Text>
+        <Image>friday.jpg</Image>
+        <Like>
+        <UName name="Pravisht">Pravisht</UName>
+        <UName name="Radha">Radha</UName>
+        </Like>
+    </Post>
+    <Post user_name="Krishna">
+        <Date>23-10-2020</Date>
+        <Text>Happy Birday @Pravisht !!</Text>
+        <Image>birthday.jpg</Image>
+        <Like>
+        <UName name="Rhea">Rhea</UName>
+        <UName name="Sumedh">Sumedh</UName>
+        <UName name="Pravisht">Pravisht</UName>
+        </Like>
+    </Post>
+
+    <Post user_name="Rhea">
+        <Date>15-10-2020</Date>
+        <Text>The best revenge is massive success.</Text>
+        <Like>
+        <UName name="Vishnu">Vishnu</UName>
+        <UName name="Krishna">Krishna</UName>
+        </Like>
+    </Post>
+    <Post user_name="Sumedh">
+        <Date>13-10-2020</Date>
+        <Text>Cute Dogs!!</Text>
+        <Image>dog.jpg</Image>
+        <Like>
+        <UName name="Radha">Radha</UName>
+        <UName name="Lakshmi">Lakshmi</UName>
+        </Like>
+    </Post>
+</Social_Network>

@@ -1,0 +1,198 @@
+[
+    {
+        "userid": "SN1",
+        "Name":"Krishna" ,
+        "Gender":"Male" ,
+        "DOB": "15-3-1995" ,
+        "Email": "krishna@gmail.com" ,
+        "Phone":  "9445256574",
+        "Bio": "Nature Lover" ,
+        "Profile": "krishna.png" ,
+        "Followers":[
+            {
+                "Name":"Radha" 
+            },
+            {
+                "Name":"Krishna" 
+            }
+        ] ,
+        "Following":[
+            {
+                "Name":"Radha" 
+            },
+            {
+                "Name":"Krishna" 
+            }
+        ],
+        "Posts": "20",
+        "Likes": "2"
+    },
+    {
+        "userid": "SN2",
+        "Name":"Radha" ,
+        "Gender": "Female",
+        "DOB": "11-01-2001",
+        "Email":  "radha@gmail.com",
+        "Phone":  "9486348896",
+        "Bio":  "Expect the unexpected",
+        "Profile":  "radha.png",
+        "Followers":[
+            {
+                "Name":"Vishnu" 
+            },
+            {
+                "Name":"Lakshmi" 
+            }
+        ] ,
+        "Following":[
+            {
+                "Name":"Vishnu" 
+            },
+            {
+                "Name":"Lakshmi" 
+            }
+        ],
+        "Posts": "17",
+        "Likes":  "5"
+    },
+    {
+        "userid": "SN3",
+        "Name":"Vishnu" ,
+        "Gender":"Male" ,
+        "DOB": "29-8-1990",
+        "Email":  "vishnu@gmail.com",
+        "Phone":  "9486538896",
+        "Bio":  "Hope for the best",
+        "Profile":  "vishnu.png",
+        "Followers":[
+            {
+                "Name":"Lakshmi" 
+            },
+            {
+                "Name":"Rhea" 
+            }
+        ] ,
+        "Following":[
+            {
+                "Name":"Lakshmi" 
+            },
+            {
+                "Name":"Rhea" 
+            }
+        ],
+        "Posts": "14",
+        "Likes":  "8"
+    },
+    {
+        "userid": "SN4",
+        "Name":"Lakshmi" ,
+        "Gender": "Female",
+        "DOB": "9-4-1994" ,
+        "Email": "lakshmi@gmail.com" ,
+        "Phone": "9486348896" ,
+        "Bio":  "Magic happens for sure",
+        "Profile":  "lakshmi.png",
+        "Followers":[
+            {
+                "Name":"Rhea" 
+            },
+            {
+                "Name":"Sumedh" 
+            }
+        ] ,
+        "Following":[
+            {
+                "Name":"Rhea" 
+            },
+            {
+                "Name":"Sumedh" 
+            }
+        ],
+        "Posts": "11",
+        "Likes":  "11"
+    },
+    {
+        "userid": "SN5",
+        "Name":"Rhea" ,
+        "Gender":"Female" ,
+        "DOB":  "7-8-1995",
+        "Email":  "rhea@gmail.com",
+        "Phone": "7010448683" ,
+        "Bio":  "Fun lover",
+        "Profile":  "rhea.png",
+        "Followers":[
+            {
+                "Name":"Sumedh" 
+            },
+            {
+                "Name":"Pravisht" 
+            }
+        ] ,
+        "Following":[
+            {
+                "Name":"Sumedh" 
+            },
+            {
+                "Name":"Pravisht" 
+            }
+        ],
+        "Posts": "8",
+        "Likes":  "14"
+    },
+    {
+        "userid": "SN7",
+        "Name":"Sumedh" ,
+        "Gender": "Male",
+        "DOB":  "3-11-1996",
+        "Email":  "sumedh@gmail.com",
+        "Phone": "9941036822" ,
+        "Bio": "Love playing with dogs",
+        "Profile":"sumedh.png" ,
+        "Followers":[
+            {
+                "Name":"Pravisht" 
+            },
+            {
+                "Name":"Krishna" 
+            }
+        ] ,
+        "Following":[   
+        {
+            "Name":"Pravisht" 
+        },
+        {
+            "Name":"Krishna" 
+        }
+        ],
+        "Posts":"5",
+        "Likes":"17" 
+    },
+    {
+        "userid": "SN1",
+        "Name":"Pravisht" ,
+        "Gender":"Male" ,
+        "DOB":"5-9-1998" ,
+        "Email":"pravisht@gmail.com" ,
+        "Phone": "9442142448",
+        "Bio": "Self Love be zaroori hai",
+        "Profile": "pravisht.png",
+        "Followers":[ 
+        {
+            "Name":"Krishna" 
+        },
+        {
+            "Name":"Radha" 
+        }
+        ] ,
+        "Following":[
+            {
+                "Name":"Krishna" 
+            },
+            {
+                "Name":"Radha" 
+            }
+        ],
+        "Posts":"2",
+        "Likes": "20"
+    }
+]

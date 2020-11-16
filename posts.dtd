@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Social_Network (Post+)>
+<!ELEMENT Post (Date,Text,Image,Like)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Text (#PCDATA)>
+<!ELEMENT Image (#PCDATA)>
+<!ELEMENT Like (UName+)>
+<!ELEMENT UName (#PCDATA)>
+<!ATTLIST UName name name #REQUIRED>
+<!ATTLIST Post user_name ID #REQUIRED>

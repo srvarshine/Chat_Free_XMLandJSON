@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  <h2>Users</h2>
+  <p>Follow or unfollow people</p>
+
+  <ul class="w3-ul w3-card-4" id="demo"></ul>
+</div>
+<script>
+  var text = '{"Users":[' +
+    '{"Name":"Krishna","Profile":"krishna.jpg","Bio": "Nature Lover","Posts": "20","Likes":"2","Following":[{"Name":"Radha" },{"Name":"Krishna" }],"Followers":[{"Name":"Radha" },{"Name":"Krishna" }]},' +
+    '{"Name":"Radha","Profile":"radha.jpg","Bio": "Expect the unexpected","Posts": "17","Likes":"5","Following":[{"Name":"Vishnu" },{"Name":"Lakshmi" }],"Followers":[{"Name":"Vishnu" },{"Name":"Lakshmi" }]},' +
+    '{"Name":"Vishnu","Profile":"vishnu.jpg","Bio": "Hope for the best","Posts": "8","Likes":"2","Following":[{"Name":"Lakshmi" },{"Name":"Rhea" }],"Followers":[{"Name":"Lakshmi" },{"Name":"Rhea" }]},'  +
+    '{"Name":"Lakshmi","Profile":"lakshmi.jpg","Bio": "Magic happens for sure","Posts": "11","Likes":"","Following":[{"Name":"Rhea" },{"Name":"Sumedh" }],"Followers":[{"Name":"Rhea" },{"Name":"Sumedh" }]},'  +
+    '{"Name":"Rhea","Profile":"rhea.jpg","Bio": "Fun lover","Posts": "8","Likes":"14","Following":[{"Name":"Sumedh" },{"Name":"Pravisht" }],"Followers":[{"Name":"Sumedh" },{"Name":"Pravisht" }]},' +
+    '{"Name":"Sumedh","Profile":"sumedh.jpg","Bio": "Love playing with dogs","Posts": "11","Likes":"17","Following":[{"Name":"Pravisht" },{"Name":"Krishna" }],"Followers":[{"Name":"Pravisht" },{"Name":"Krishna" }]},'+
+    '{"Name":"Pravisht","Profile":"pravisht.jpg","Bio": "Self Love be zaroori hai","Posts": "2","Likes":"20","Following":[{"Name":"Radha" },{"Name":"Krishna" }],"Followers":[{"Name":"Radha" },{"Name":"Krishna" }]}]}';
+    obj = JSON.parse(text);
+    var disp='';
+    for (var i = 0 ; i < 7; ++i) {  
+    disp +="<li class='w3-bar'>"+'<span class="w3-bar-item w3-button w3-white w3-xlarge w3-right"><a href="details.html" >View</a></span>'+'<span class="w3-bar-item w3-button w3-white w3-xlarge w3-right">Follow</span>'+
+      '<img src="'+obj.Users[i].Profile+'" style="width:85px" class="w3-bar-item w3-circle w3-hide-small ">'+  '<div class="w3-bar-item">'+'<span class="w3-large" id="name">'+obj.Users[i].Name + '</span><br>' + '<span>'+obj.Users[i].Bio +'</span>'+'</div>'+"</li>";
+    }
+    document.getElementById("demo").innerHTML=disp;
+</script>
+</body>
+</html>

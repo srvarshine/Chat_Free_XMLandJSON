@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  <h2>CHAT FREE APP</h2>
+
+  <div class="w3-card-4" style="width:70%">
+    <header class="w3-container w3-light-grey">
+      <h3>View User Information</h3>
+    </header>
+    <div class="w3-container">
+      <p id="Name"></p>
+      <hr>
+      
+      <p id="bio"></p><br>
+      <p id="Email"></p><br>
+      <p id="Posts"></p><br>
+      <p id="Likes"></p><br>
+      <p id="Followers"></p><br>
+      <p id="Following"></p>
+    </div>
+    <button class="w3-button w3-block w3-dark-grey">+ Follow</button>
+  </div>
+</div>
+
+</body>
+<script>
+    var parser, xmlDoc;
+    var text = "<User><Name>Krishna</Name>" +
+      "<Email>krishna@gmail.com</Email>" +
+      "<Bio>Nature Lover</Bio>" +
+      "<Posts>20</Posts>" +"<Likes>2</Likes>"+
+      "<Followers>Radha,Vishnu,Pravisht</Followers>"+
+      "<Following>Lakshmi,Vishnu,Sumedh</Following>"+
+    "</User>";
+    
+    parser = new DOMParser();
+    xmlDoc = parser.parseFromString(text,"text/xml");
+    
+    document.getElementById("Name").innerHTML =
+    xmlDoc.getElementsByTagName("Name")[0].childNodes[0].nodeValue;
+    document.getElementById("bio").innerHTML ="<b>Bio - </b>"+ 
+    xmlDoc.getElementsByTagName("Bio")[0].childNodes[0].nodeValue;
+    document.getElementById("Email").innerHTML ="<b>Email - </b>"+ 
+    xmlDoc.getElementsByTagName("Email")[0].childNodes[0].nodeValue;
+    document.getElementById("Posts").innerHTML ="<b>Posts - </b>"+
+    xmlDoc.getElementsByTagName("Posts")[0].childNodes[0].nodeValue;
+    document.getElementById("Likes").innerHTML ="<b>Likes - "+ xmlDoc.getElementsByTagName("Likes")[0].childNodes[0].nodeValue;
+    document.getElementById("Followers").innerHTML ="<b>Followers - </b>"+
+    xmlDoc.getElementsByTagName("Followers")[0].childNodes[0].nodeValue;
+    document.getElementById("Following").innerHTML ="<b>Following - </b>"+
+    xmlDoc.getElementsByTagName("Following")[0].childNodes[0].nodeValue;
+    </script>
+    
+    </body>
+</html>

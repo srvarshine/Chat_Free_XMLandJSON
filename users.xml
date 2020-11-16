@@ -1,0 +1,137 @@
+<?xml version="1.0“  encoding="UTF-8"?>
+
+<!DOCTYPE Social_Network SYSTEM "users.dtd">
+<Social_Network>
+    <User userid="SN1">
+        <Name>Krishna</Name>
+        <Gender>Male</Gender>
+        <DOB>15-3-1995</DOB>
+        <Email>krishna@gmail.com</Email>
+        <Phone>9445256574</Phone>
+        <Bio>Nature Lover</Bio>
+        <Profile>krishna.jpg</Profile>
+        <Followers>
+            <UName>Radha</UName>
+            <UName>Vishnu</UName>
+        </Followers>
+        <Following>
+            <Uname>Radha</Uname>
+            <Uname>Vishnu</Uname>
+        </Following>
+        <Posts>20</Posts>
+        <Likes>2</Likes>
+    </User>
+    <User userid="SN2">
+        <Name>Radha</Name>
+        <Gender>Female</Gender>
+        <DOB>11-01-2001</DOB>
+        <Email>radha@gmail.com</Email>
+        <Phone>9940639215</Phone>
+        <Bio>Expect the unexpected</Bio>
+        <Profile>radha.jpg</Profile>
+        <Followers>
+            <UName>Lakshmi</UName>
+            <UName>Vishnu</UName>
+        </Followers>
+        <Following>
+            <Uname>Lakshmi</Uname>
+            <Uname>Vishnu</Uname>
+        </Following>
+        <Posts>17</Posts>
+        <Likes>5</Likes>
+    </User>
+    <User userid="SN3">
+        <Name>Vishnu</Name>
+        <Gender>Male</Gender>
+        <DOB>29-8-1990</DOB>
+        <Email>vishnu@gmail.com</Email>
+        <Phone>9486538896</Phone>
+        <Bio>Hope for the best</Bio>
+        <Profile>vishnu.jpg</Profile>
+        <Followers>
+            <UName>Lakshmi</UName>
+            <UName>Rhea</UName>
+        </Followers>
+        <Following>
+            <Uname>Lakshmi</Uname>
+            <Uname>Rhea</Uname>
+        </Following>
+        <Posts>14</Posts>
+        <Likes>8</Likes>
+    </User>
+    <User userid="SN4">
+        <Name>Lakshmi</Name>
+        <Gender>Female</Gender>
+        <DOB>9-4-1994</DOB>
+        <Email>lakshmi@gmail.com</Email>
+        <Phone>9486348896</Phone>
+        <Bio>Magic happens for sure</Bio>
+        <Profile>lakshmi.jpg</Profile>
+        <Followers>
+            <UName>Rhea</UName>
+             <UName>Sumedh</UName>
+        </Followers>
+        <Following>
+            <Uname>Rhea</Uname>
+            <Uname>Sumedh</Uname>
+        </Following>
+        <Posts>11</Posts>
+        <Likes>11</Likes>
+    </User>
+    <User userid="SN5">
+        <Name>Rhea</Name>
+        <Gender>Female</Gender>
+        <DOB>7-8-1995</DOB>
+        <Email>rhea@gmail.com</Email>
+        <Phone>7010448683</Phone>
+        <Bio>Fun lover</Bio>
+        <Profile>rhea.png</Profile>
+        <Followers>
+             <UName>Sumedh</UName>
+             <UName>Pravisht</UName>
+        </Followers>
+        <Following>
+            <Uname>Sumedh</Uname>
+            <Uname>Pravisht</Uname>
+        </Following>
+        <Posts>8</Posts>
+        <Likes>14</Likes>
+    </User>
+        <User userid="SN6">
+        <Name>Sumedh</Name>
+        <Gender>Male</Gender>
+        <DOB>3-11-1996</DOB>
+        <Email>sumedh@gmail.com</Email>
+        <Phone>9941036822</Phone>
+        <Bio>Love playing with dogs</Bio>
+        <Profile>sumedh.png</Profile>
+        <Followers>
+            <UName>Pravisht</UName>
+            <UName>Krishna</UName>
+        <Following>
+            <Uname>Pravisht</Uname>
+            <Uname>Krishna</Uname>
+        </Following>
+        <Posts>5</Posts>
+        <Likes>17</Likes>
+    </User>
+        <User userid="SN7">
+        <Name>Pravisht</Name>
+        <Gender>Male</Gender>
+        <DOB>5-9-1998</DOB>
+        <Email>pravisht@gmail.com</Email>
+        <Phone>9442142448</Phone>
+        <Bio>Self Love be zaroori hai</Bio>
+        <Profile>pravisht.png</Profile>
+        <Followers>
+            <UName>Radha</UName>
+            <UName>Krishna</UName>
+        </Followers>
+        <Following>
+            <Uname>Radha</Uname>
+            <Uname>Krishna</Uname>
+        </Following>
+        <Posts>2</Posts>
+        <Likes>20</Likes>
+    </User>
+</Social_Network>

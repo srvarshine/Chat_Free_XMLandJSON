@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Social_Network (User+)>
+<!ELEMENT User (Name,Gender,DOB,Email,Phone,Bio,Profile,Followers,Following,Posts,Likes)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Gender (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+<!ELEMENT Bio (#PCDATA)>
+<!ELEMENT Profile (#PCDATA)>
+<!ELEMENT Followers (UName+)>
+<!ELEMENT UName (#PCDATA)>
+<!ELEMENT Following (Uname+)>
+<!ELEMENT Uname (#PCDATA)>
+<!ELEMENT Posts (#PCDATA)>
+<!ELEMENT Likes (#PCDATA)>
+<!ATTLIST User userid ID #REQUIRED>
+

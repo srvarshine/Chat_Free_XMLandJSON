@@ -1,0 +1,90 @@
+[
+    {
+        "user id":"SN7" ,
+        "Date":"13-11-2020",
+        "Text":"Advance Happy Diwali",
+        "Image":"diwali.png",
+        "Like":[
+            {
+                "Name":"Sumedh" 
+            },
+            {
+                "Name":"Rhea" 
+            }
+        ] 
+    },
+    {
+        "user id":"SN7" ,
+        "Date":"1-11-2020",
+        "Text":"Good Morning all !!",
+        "Image":"",
+        "Like":[
+            {
+                "Name":"Vishnu" 
+            },
+            {
+                "Name":"Lakshmi" 
+            }
+        ] 
+    },
+    {
+        "user id":"SN2" ,
+        "Date":"30-10-2020",
+        "Text":"Friday Thoughts !!",
+        "Image":"friday.png",
+        "Like":[
+            {
+                "Name":"Pravisht" 
+            },
+            {
+                "Name":"Radha" 
+            }
+        ] 
+    },
+    {
+        "user id":"SN1" ,
+        "Date":"23-10-2020",
+        "Text":"Happy Birday @Pravisht !!",
+        "Image":"birthday.png",
+        "Like":[
+            {
+                "Name":"Rhea" 
+            },
+            {
+                "Name":"Sumedh" 
+            },
+            {
+                "Name":"Pravisht" 
+            }
+        ] 
+    },
+    {
+        "user id":"SN5" ,
+        "Date":"15-10-2020",
+        "Text":"The best revenge is massive success.",
+        "Image":"",
+        "Like":[
+            {
+                "Name":"Vishnu" 
+            },
+            {
+                "Name":"Krishna" 
+            }
+        ] 
+    },
+    {
+        "user id":"SN6" ,
+        "Date":"13-10-2020",
+        "Text":"Cute Dogs!!",
+        "Image":"dog.png",
+        "Like":[
+            {
+                "Name":"Radha" 
+            },
+            {
+                "Name":"Lakshmi" 
+            }
+        ] 
+    }
+
+]
